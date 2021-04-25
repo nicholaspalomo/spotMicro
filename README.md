@@ -204,6 +204,13 @@ International Journal of Scientific & Technology Research. 6.`
     * spot_micro_kinematics_cpp by me :) for c++ spot micro kinematic calculations:
         * https://github.com/mike4192/spot_micro_kinematics_cpp 
 
-#### Troubleshooting
-If unable to compile code on Raspberry Pi 3B+ with Ubuntu 18.04 due to issue with i2c-specific methods, go here and modify the source code and CMakeLists accordingly:
+## Troubleshooting
+- If unable to compile code on Raspberry Pi 3B+ with Ubuntu 18.04 due to issues with I2C-specific methods utilized in the `ros-i2cpwmboard` package, go here and modify the source code and CMakeLists accordingly:
+
 https://answers.ros.org/question/371342/catkin_make-on-a-raspberry-pi-4-gives-error-with-ros-i2cpwmboard/
+
+- If Raspberry Pi freezes while executing a `catkin build` command, follow the instructions here:
+
+https://nebl.io/neblio-university/enabling-increasing-raspberry-pi-swap/
+
+to increase the size of the swap partition.
